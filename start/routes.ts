@@ -12,7 +12,7 @@ router.on('/').renderInertia('home')
 
 router.get('/api/welcome', async () => {
   return {
-    hello: 'world',
+    hello: 'world!',
   }
 })
 
